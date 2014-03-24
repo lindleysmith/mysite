@@ -19,7 +19,7 @@ app.configure(function() {
 
 //These 
 
-app.set('views', path.normalize(__dirname) + '/public');
+app.set('views', path.normalize(__dirname) + '/public/html');
 app.set('view engine', 'html');
 app.engine('html', require('ejs').renderFile);
 

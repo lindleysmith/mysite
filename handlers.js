@@ -1,5 +1,7 @@
 exports.index = function(req, res) {
-	res.send("Lindley Smith");
+	res.render("index", function(err, html) {
+		res.send(html);
+	})
 }
 
 var watchf = function(req, res) {
